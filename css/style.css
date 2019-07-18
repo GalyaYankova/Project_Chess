@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Cormorant+Garamond|Lobster|Pacifico|Pattaya&display=swap');
+
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.wrapper{
+    background: url("/images/New11.jpg") no-repeat center;
+    background-size: 100% 100%;
+    height: 35rem;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;   
+}
+
+#body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;  
+    position: relative;
+    top: -70px;
+    margin-bottom: -183px;
+}
+
+.logo{
+    position: relative;
+    top: 100px;
+    width: 30%;
+    float: right;
+    margin-right: 50px;
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: end;
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.6);
+    font-size: 4rem;
+    font-weight: 900;
+    background: #222627;
+}
+
+.wrapper-home>header>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+}
+
+
+.wrapper-home>header>nav>ul>li {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.wrapper-home>header>nav>ul>li>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 900; 
+}
+
+
+.home-main>main{
+    background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
+    display: flex;
+    justify-content: center;
+}
+
+.home-main>main>article{
+    width: 25%;  
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: -60px;
+    background: white;
+    margin-left: 30px;
+}
+
+body > main > section > div.home-main > main > article:nth-child(1){
+    position: relative;
+    top: -185px;
+}
+
+body > main > section > div.home-main > main > article:nth-child(2){
+    position: relative;
+    top: -145px;
+}
+
+body > main > section > div.home-main > main > article:nth-child(3){
+    position: relative;
+    top: -105px;
+}
+
+.img{
+    height: 27vh;
+    opacity: 0.9;
+}
+
+.img-1{
+    background: url("/images/home-background-7.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.img-2{
+    background: url("/images/home-background-3.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.img-3{
+    background: url("/images/home-background-2.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.home-main > main > article > p{
+    height: 20vh;
+    text-align: center;
+    font-size: 18px;
+}
+.home-main > main > article > button{
+   width: 60%;
+   margin-left: 60px;
+   padding: 15px 5px 15px 5px;
+   text-align: center;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom: none;
+   background-image: linear-gradient(to right bottom, #393838, #504f4f, #696767, #828181, #9d9b9b);
+   font-family: 'Lobster', cursive;
+}
+
+.home-main > main > article > button>a{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: goldenrod;
+    letter-spacing: 4px;
+}
+
+
+
+.wrapper-home{
+    background: black;
+}
+
+footer {
+    background: black;
+    height: 80px;
+    color: silver;
+    font-size: 18px;
+}
+
+.site-nav {
+    padding-top: 10px;
+    background: #222627;
+    opacity: 0.8;
+}
+
+.site-nav>ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.site-nav>ul>li{
+    margin: 20px;
+}
+
+.site-nav>ul>li>a{
+    color: goldenrod;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.site-header>h1{
+    position: relative;
+    bottom: -90px;
+    background: transparent;
+    margin-top: -80px;
+}
+
+.site-header>h1>span{
+  font-style: italic;
+  font-size: 3rem;
+}

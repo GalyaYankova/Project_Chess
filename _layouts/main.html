@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+    <script src="https://kit.fontawesome.com/0f2451e173.js"> </script>
+    <title>Chess</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        {% include navigation.html%}
+        {% if page.home == true %}
+        <h1>Шах <span> в </span> НПМГ</h1>
+        {% endif %}
+    </header>
+
+
+
+    <main>
+        <section>{{ content }}</section>
+    </main>
+
+    <footer>
+        &copy; to me
+    </footer>
+</body>
+
+</html>
