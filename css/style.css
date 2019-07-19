@@ -130,28 +130,10 @@ body > main > section > div.home-main > main > article:nth-child(3){
     text-align: center;
     font-size: 18px;
 }
-.home-main > main > article > button{
-   width: 60%;
-   margin-left: 60px;
-   padding: 15px 5px 15px 5px;
-   text-align: center;
-   border-top-left-radius: 30px;
-   border-top-right-radius: 30px;
-   border-bottom: none;
-   background-image: linear-gradient(to right bottom, #393838, #504f4f, #696767, #828181, #9d9b9b);
-   font-family: 'Lobster', cursive;
+
+article > button{
+    display: none;
 }
-
-.home-main > main > article > button>a{
-    font-size: 26px;
-    text-align: center;
-    font-weight: 800;
-    text-decoration: none;
-    color: goldenrod;
-    letter-spacing: 4px;
-}
-
-
 
 .wrapper-home{
     background: black;
@@ -210,7 +192,7 @@ footer {
 
     .wrapper{
         height: 19rem;
-        margin-top: 30px;
+        padding-top: 30px;
     }
 
     h1{
@@ -259,6 +241,28 @@ footer {
     .img{
         height: 48vh;
     }
+
+    .home-main > main > article > button{
+        display: block;
+        width: 47%;
+        margin: auto;
+        text-align: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom: none;
+        background-image: linear-gradient(to right bottom, #393838, #504f4f, #696767, #828181, #9d9b9b);
+        font-family: 'Lobster', cursive;
+        padding: 15px 3px 15px 3px;
+    }
+    
+    .home-main > main > article > button>a{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 800;
+        text-decoration: none;
+        color: goldenrod;
+        letter-spacing: 4px;
+     }  
 }
 
 @media all and (max-width: 480px) {
