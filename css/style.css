@@ -78,6 +78,7 @@ h1{
     background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
     display: flex;
     justify-content: center;
+    
 }
 
 .home-main>main>article{
@@ -102,7 +103,7 @@ body > main > section > div.home-main > main > article:nth-child(2){
 
 body > main > section > div.home-main > main > article:nth-child(3){
     position: relative;
-    top: -105px;
+    top: -100px;
 }
 
 .img{
@@ -186,8 +187,13 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+
     .site-header>.site-nav{
         display: none;
+    }
+
+    .site-nav>ul>li {
+        margin: 17px;
     }
 
     .wrapper{
@@ -217,13 +223,11 @@ footer {
 
     .home-main > main > article:nth-child(1){
         margin-top: 185px;
-        margin-bottom: -40px;
     }
 
-    .home-main > main > article:nth-child(3),
     .home-main > main > article:nth-child(2){
-        margin-top: 2px;
-        margin-bottom: -40px;
+        margin-top: -42px;
+        margin-bottom: -46px;
     }
 
     .home-main > main > article:nth-child(3){
@@ -246,6 +250,7 @@ footer {
         display: block;
         width: 47%;
         margin: auto;
+        margin-top: 30px;
         text-align: center;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
