@@ -242,9 +242,6 @@ footer {
         margin: auto;
     }
 
-    .img{
-        height: 48vh;
-    }
 
     .home-main > main > article > button{
         display: block;
@@ -272,7 +269,7 @@ footer {
 
 @media all and (max-width: 480px) {
     .img{
-        height: 25vh;
+        height: 55vh;
     }
     
     .wrapper{
