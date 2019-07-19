@@ -111,20 +111,17 @@ body > main > section > div.home-main > main > article:nth-child(3){
     opacity: 0.9;
 }
 
-.img-1{
-    background: url("../images/home-background-7.jpg") no-repeat center;
-    background-size: 100% 100%;
-}
+    body > main > section > div.home-main > main > article:nth-child(3) > div > img{
+        width: 100%;
+    }
 
-.img-2{
-    background: url("../images/home-background-3.jpg") no-repeat center;
-    background-size: 100% 100%;
-}
+    body > main > section > div.home-main > main > article:nth-child(2) > div > img{
+        width: 100%;
+    }
 
-.img-3{
-    background: url("../images/home-background-2.jpg") no-repeat center;
-    background-size: 100% 100%;
-}
+    body > main > section > div.home-main > main > article:nth-child(1) > div > img{
+        width: 100%;
+    }
 
 .home-main > main > article > p{
     height: 20vh;
@@ -187,6 +184,15 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+    .home-main > main > article > p {
+        margin-top: 280px;
+        margin-bottom: 2px;
+    }
+
+    article{
+        width: 80%;
+        margin-bottom: -183px;
+    }
 
     .site-header>.site-nav{
         display: none;
@@ -242,12 +248,11 @@ footer {
         margin: auto;
     }
 
-
     .home-main > main > article > button{
         display: block;
         width: 47%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 2rem;
         text-align: center;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -268,10 +273,6 @@ footer {
 }
 
 @media all and (max-width: 480px) {
-    .img{
-        height: 55vh;
-    }
-    
     .wrapper{
         margin-top: -90px;
     }
