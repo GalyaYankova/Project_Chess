@@ -16,6 +16,7 @@
 title: Chess
 email: galya_vl_koleva@mail.bg
 baseurl: "/Project_Chess"
+#baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GalyaYankova
 
