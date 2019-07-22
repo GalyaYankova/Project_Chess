@@ -1,0 +1,29 @@
+{
+  "name": "chess_project",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "browser-sync": "^2.26.7",
+    "child-process": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-exec": "^4.0.0",
+    "node": "^12.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:GalyaYankova/Project_Chess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "site for chess"
+}
