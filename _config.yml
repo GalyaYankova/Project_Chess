@@ -29,6 +29,12 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - node_modules
+  - docs  
+  - _assets 
+  - gulpfile.js
+  - package.json
+  - package_lock.json
   - Gemfile
   - Gemfile.lock
   - node_modules
